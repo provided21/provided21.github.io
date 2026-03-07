@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Haoran Hu"
   avatar           : "profile.png"
-  bio              : "Undergraduate student in Big Data Communication at Nanjing University, interested in LLM, Agent, and Data Science"
+  bio              : "Undergraduate student in Big Data Communication at Nanjing University"
   location         : "Nanjing"
   employer         : "Nanjing University"
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
