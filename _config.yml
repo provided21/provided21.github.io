@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "SocratesClub / Homepage"
 title_separator          : "-"
-name                     : "SocratesClub"
+name                     : "Hu Haran"
 description              : "We are a small social science lab focusing on computational social science!"
 url                      : https://socratesgroup.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
