@@ -1,18 +1,16 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
- 
+I'm Haoran Hu, an undergraduate student in the **Big Data Communication Experimental Class** at **Nanjing University**.
 
-Welcome to the Socrates Lab! We are a small research team affiliated with the Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University.
 
-Github: https://github.com/socratesclub
+[Email](huhr@smail.nju.edu.cn) / [GitHub](https://github.com/provided21)
 
 ## People
 ### Directer
