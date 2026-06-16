@@ -32,7 +32,7 @@ I'm **Haoran Hu** (胡浩然), a sophomore undergraduate in the **Big Data Commu
 
 ## Current Work
 
-I'm a member of the **[LAMDA Lab](https://www.lamda.nju.edu.cn/)** (led by Prof. Lijun Zhang), where I contribute to **RoutingToolBox** — a benchmark pipeline for LLM routing evaluation. My work involves:
+I contribute to **RoutingToolBox** — a benchmark pipeline for LLM routing evaluation. My work involves:
 
 - Processing multiple datasets (Mixinstruct, Routereval, MMRbench) for benchmark construction
 - Developing algorithm interfaces and utility functions
@@ -50,12 +50,12 @@ I have three second-author papers on LLM routing:
 |-------|--------|----------|
 | **Programming** | Python (primary), SQL, Frontend basics | Web crawlers, LLM-Assistant, RouteJudge full-stack |
 | **Data Science** | Data processing, statistical modeling, dataset cleaning | Processed Mixinstruct/Routereval/MMRbench |
-| **AI/ML** | LLM applications, model routing, API integration | LAMDA Lab experience, ICML Workshop + TMLR & EMNLP submissions |
+| **AI/ML** | LLM applications, model routing, API integration | ICML Workshop + TMLR & EMNLP submissions |
 | **Tools** | Git/GitHub, open-source collaboration | All repositories open-sourced; MCP toolchain |
 
 ## Projects
 
-- 🧠 **RoutingToolBox** — LLM routing benchmark pipeline (LAMDA Lab)
+- 🧠 **RoutingToolBox** — LLM routing benchmark pipeline
 - ⚖️ **RouteJudge** — Full-stack application for evaluating routing decisions
 - 🏀 **Kaggle NCAA March Madness** — Predictive modeling (Top 40%+)
 - 🤖 **LLM-Assistant** — AI assistant with MCP protocol integration

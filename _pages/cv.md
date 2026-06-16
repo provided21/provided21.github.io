@@ -18,7 +18,7 @@ Education
 
 Research Experience
 ======
-* **LAMDA Lab — RoutingToolBox** (2025–Present)
+* **RoutingToolBox — LLM Routing Benchmark** (2025–Present)
   * Contributed to building a comprehensive LLM routing benchmark pipeline
   * Processed three datasets: Mixinstruct, Routereval (public), and MMRbench (unreleased multimodal)
   * Developed algorithm interfaces and general-purpose utility functions
