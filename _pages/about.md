@@ -89,17 +89,17 @@ redirect_from:
     <div class="home-work-list">
       <article>
         <span>Accepted / ICML Workshop</span>
-        <h3>RouterJudge: Preference-Based Evaluation of LLM Routers</h3>
+        <h3><a href="https://openreview.net/forum?id=qx8X5hC9Kq">RouterJudge: Preference-Based Evaluation of LLM Routers</a></h3>
         <p>Evaluating router behavior under pluralistic user preferences, with a focus on preference-aware model selection.</p>
       </article>
       <article>
         <span>Under Review / TMLR</span>
-        <h3>Priors in LLM Routing</h3>
+        <h3><a href="https://openreview.net/forum?id=K3xNTJOM1j&amp;referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)">Priors in LLM Routing</a></h3>
         <p>Studying how priors influence routing behavior from initialization through regularization.</p>
       </article>
       <article>
         <span>Under Review / EMNLP</span>
-        <h3>From Sampled Outcomes to Capability Distributions</h3>
+        <h3><a href="https://arxiv.org/abs/2606.06924">From Sampled Outcomes to Capability Distributions</a></h3>
         <p>Rethinking supervision for routing by modeling capability distributions instead of isolated outcomes.</p>
       </article>
     </div>
@@ -137,7 +137,7 @@ redirect_from:
   <section class="home-section home-section--service">
     <div>
       <p class="home-kicker">Beyond Research</p>
-      <h2>Communication work grounded in teams and public-facing practice.</h2>
+      <h2>Teamwork and public-facing practice.</h2>
     </div>
     <div>
       <p>I served as financial manager for a 12-person interdisciplinary summer teaching volunteer team in Shangluo, Shaanxi, managing budget, expenses, and reconciliation with zero errors. I also work on WeChat official account operation and video editing, connecting technical execution with communication practice.</p>
