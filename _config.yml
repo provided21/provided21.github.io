@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hu Haoran | Nanjing University"
+title                    : "Haoran Hu | NJU"
 title_separator          : "-"
-name                     : "Hu Haran"
-description              : "We are a small social science lab focusing on computational social science!"
+name                     : "Haoran Hu"
+description              : "Undergraduate student in Big Data Communication at Nanjing University, interested in computational social science, LLMs, and data-driven communication research."
 url                      : https://provided21.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "provided21/provided21.github.io"
@@ -82,39 +82,14 @@ analytics:
 author:
   name             : "Haoran Hu"
   avatar           : "profile.png"
-  bio              : "Undergraduate student in Big Data Communication at Nanjing University"
-  location         : "Nanjing"
+  bio              : "Undergraduate in Big Data Communication at NJU · GPA 4.4/5.0 (rank 2) · LAMDA Lab · Model routing & LLM apps · ICML Workshop accepted + TMLR & EMNLP under review"
+  location         : "Nanjing, China"
   employer         : "Nanjing University"
-  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  # googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=yourid"
   email            : "huhr@smail.nju.edu.cn"
-  # researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  # uri              :
-  # bitbucket        :
-  # codepen          :
-  # dribbble         :
-  # flickr           :
-  # facebook         :
-  # foursquare       :
+  uri              : "https://provided21.github.io"
   github           : "provided21"
-  # google_plus      :
-  # keybase          :
-  # instagram        :
-  # impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  # lastfm           :
-  # linkedin         :
-  # orcid            : "http://orcid.org/yourorcidurl"
-  # pinterest        :
-  # soundcloud       :
-  # stackoverflow    : # http://stackoverflow.com/users/123456/username
-  # steam            :
-  # tumblr           :
-  # twitter          : "replacethistwitterhandle"
-  # vine             :
-  # weibo            :
-  # xing             :
-  # youtube          :
-  # wikipedia        :
+  orcid            : "https://orcid.org/your-orcid-id"
 
 
 # Reading Files
