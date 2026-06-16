@@ -1,6 +1,7 @@
 ---
 title: "RouteJudge"
-excerpt: "Full-stack application for preference-based evaluation of LLM routers under pluralistic user preferences."
+excerpt: "Full-stack application for preference-based evaluation of LLM routers under pluralistic user preferences.<br/><img src='/images/routejudge.png'>"
+date: 2026-06-15
 collection: portfolio
 ---
 
@@ -12,5 +13,7 @@ RouteJudge is a full-stack web application designed for evaluating LLM routing d
 - Integrated with RoutingToolBox benchmark pipeline
 
 **Related Publication:** *RouterJudge: Preference-Based Evaluation of LLM Routers under Pluralistic User Preferences* — accepted at ICML 2026 Workshop
+
+![RouteJudge System Architecture](/images/routejudge.png)
 
 **Tech Stack:** Python, JavaScript, API integration

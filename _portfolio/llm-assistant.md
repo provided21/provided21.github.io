@@ -1,6 +1,7 @@
 ---
 title: "LLM-Assistant"
 excerpt: "AI assistant application with MCP (Model Context Protocol) integration — open source."
+date: 2026-06-03
 collection: portfolio
 ---
 

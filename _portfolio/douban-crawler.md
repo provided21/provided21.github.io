@@ -1,6 +1,7 @@
 ---
 title: "Douban Movie Crawler"
 excerpt: "Automated web scraping tool for collecting movie information from Douban — open source."
+date: 2026-06-04
 collection: portfolio
 ---
 

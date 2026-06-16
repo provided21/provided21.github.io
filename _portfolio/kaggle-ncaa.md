@@ -1,6 +1,7 @@
 ---
 title: "Kaggle NCAA March Madness Prediction"
 excerpt: "Predictive modeling competition — Top 40% finish in NCAA basketball tournament bracket prediction."
+date: 2026-06-05
 collection: portfolio
 ---
 

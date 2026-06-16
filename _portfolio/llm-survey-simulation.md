@@ -1,6 +1,7 @@
 ---
 title: "LLM Population Attitude Simulation"
-excerpt: "Research project comparing LLM-simulated policy attitudes against real-world French survey data using the Nemotron-Personas-France dataset."
+excerpt: "Research project comparing LLM-simulated policy attitudes against real-world French survey data using the Nemotron-Personas-France dataset.<br/><img src='/images/llm-simulation.png'>"
+date: 2026-06-10
 collection: portfolio
 ---
 
@@ -13,3 +14,5 @@ An ongoing research project investigating the alignment between LLM-generated de
 - Retrieval-augmented generation for persona-conditioned prompts
 
 **Status:** In progress (Spring 2026)
+
+![LLM Simulation System Architecture](/images/llm-simulation.png)
