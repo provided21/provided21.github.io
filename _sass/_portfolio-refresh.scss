@@ -191,14 +191,14 @@ body {
 
 .home-hero h1 {
   position: relative;
-  max-width: 760px;
+  max-width: 660px;
   margin: 0;
   color: var(--portfolio-ink);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.05rem, 4.2vw, 4.05rem);
+  font-size: clamp(2rem, 3.4vw, 3.45rem);
   font-weight: 700;
   letter-spacing: 0;
-  line-height: 1.02;
+  line-height: 1.08;
 }
 
 .home-hero__lead {
@@ -449,6 +449,18 @@ body {
 .home-contact .home-kicker,
 .home-contact h2 {
   color: #fff;
+}
+
+.home-contact p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.home-contact__email {
+  margin: 1rem 0 0;
+  color: #fff !important;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  font-weight: 750;
+  letter-spacing: 0;
 }
 
 .home-contact .home-button {

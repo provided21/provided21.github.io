@@ -11,12 +11,12 @@ redirect_from:
   <section class="home-hero" aria-labelledby="home-hero-title">
     <div class="home-hero__copy">
       <p class="home-kicker">Nanjing University / Big Data Communication</p>
-      <h1 id="home-hero-title">Computational communication research for LLM routing and evaluation.</h1>
-      <p class="home-hero__lead">I am Haoran Hu, an undergraduate at Nanjing University working across model routing, LLM applications, and data-driven communication research.</p>
+      <h1 id="home-hero-title">I work with data, media, and intelligent systems.</h1>
+      <p class="home-hero__lead">I am Haoran Hu, an undergraduate at Nanjing University. I enjoy turning messy information into clear systems, useful tools, and readable analysis.</p>
       <div class="home-hero__actions" aria-label="Primary links">
         <a class="home-button home-button--primary" href="/portfolio/">View projects</a>
         <a class="home-button" href="/publications/">Publications</a>
-        <a class="home-button" href="mailto:huhr@smail.nju.edu.cn">Contact</a>
+        <a class="home-button" href="#contact">Contact</a>
       </div>
     </div>
 
@@ -29,7 +29,7 @@ redirect_from:
       <dl>
         <div><dt>GPA</dt><dd>4.4 / 5.0, rank 2</dd></div>
         <div><dt>Location</dt><dd>Nanjing, China</dd></div>
-        <div><dt>Email</dt><dd><a href="mailto:huhr@smail.nju.edu.cn">huhr@smail.nju.edu.cn</a></dd></div>
+        <div><dt>Email</dt><dd>huhr@smail.nju.edu.cn</dd></div>
       </dl>
     </aside>
   </section>
@@ -52,31 +52,31 @@ redirect_from:
   <section class="home-section home-section--intro">
     <p class="home-kicker">Current Focus</p>
     <div class="home-section__split">
-      <h2>Building clearer ways to compare, route, and evaluate large language models.</h2>
-      <p>I contribute to <strong>RoutingToolBox</strong>, a benchmark pipeline for LLM routing evaluation. My work includes dataset processing, algorithm interfaces, utility functions, and the full-stack development of <strong>RouteJudge</strong>, a preference-based evaluation application for routing decisions.</p>
+      <h2>Making complex information easier to inspect, compare, and use.</h2>
+      <p>My work usually sits between communication studies and technical implementation: cleaning datasets, building small systems, designing evaluation workflows, and writing things down clearly enough that other people can build on them.</p>
     </div>
   </section>
 
   <section class="home-section">
     <div class="home-section__header">
-      <p class="home-kicker">Research Direction</p>
-      <h2>Interests</h2>
+      <p class="home-kicker">What I Do</p>
+      <h2>Ways of working</h2>
     </div>
     <div class="home-interest-grid" aria-label="Research interests">
       <article>
         <span>01</span>
-        <h3>Model Routing</h3>
-        <p>Adaptive routing mechanisms for large language models under pluralistic user preferences.</p>
+        <h3>Data Work</h3>
+        <p>Cleaning, structuring, and analyzing information so patterns become easier to see and explain.</p>
       </article>
       <article>
         <span>02</span>
-        <h3>Computational Social Science</h3>
-        <p>Computational methods for studying communication behavior, media systems, and social phenomena.</p>
+        <h3>Tool Building</h3>
+        <p>Creating practical interfaces, scripts, and workflows that make technical ideas usable.</p>
       </article>
       <article>
         <span>03</span>
-        <h3>Data-Driven Communication</h3>
-        <p>Data science, statistical modeling, and machine learning for communication research questions.</p>
+        <h3>Communication</h3>
+        <p>Turning technical work into clear writing, visual structure, and public-facing materials.</p>
       </article>
     </div>
   </section>
@@ -149,12 +149,13 @@ redirect_from:
     </div>
   </section>
 
-  <section class="home-contact" aria-label="Contact">
+  <section class="home-contact" id="contact" aria-label="Contact">
     <p class="home-kicker">Contact</p>
-    <h2>Open to research collaboration, LLM evaluation projects, and data-driven communication work.</h2>
+    <h2>Open to collaboration, project conversations, and thoughtful technical work.</h2>
+    <p class="home-contact__email">huhr@smail.nju.edu.cn</p>
     <div class="home-hero__actions">
-      <a class="home-button home-button--primary" href="mailto:huhr@smail.nju.edu.cn">Email me</a>
       <a class="home-button" href="https://github.com/provided21">GitHub @provided21</a>
+      <a class="home-button" href="/cv/">View CV</a>
     </div>
   </section>
 

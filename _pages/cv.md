@@ -32,11 +32,6 @@ Research Experience
   * Using Nemotron-Personas-France dataset (6M synthetic personas)
   * Building retrieval-augmented LLM pipelines for demographic-conditioned response generation
 
-* **Digital Communication Knowledge Graph** (2026)
-  * Built comprehensive Obsidian-based knowledge graph covering 14 areas of digital communication
-  * 41 SVG structure diagrams + 41 Mermaid relationship maps
-  * Human-AI collaborative note-taking with transparent attribution
-
 Competitions
 ======
 * **Kaggle NCAA March Madness Prediction** — Top 40%+
@@ -44,6 +39,10 @@ Competitions
 
 Projects
 ======
+* **Digital Communication Knowledge Graph** (Coursework, 2026)
+  * Built an Obsidian-based course knowledge graph covering 14 areas of digital communication
+  * Created 41 SVG structure diagrams + 41 Mermaid relationship maps
+  * Human-AI collaborative notes with transparent attribution
 * **LLM-Assistant** — AI assistant application with MCP protocol integration (open source)
 * **Douban Movie Crawler** — Automated web scraping tool for movie information
 * **RouteJudge** — Full-stack web application for LLM routing evaluation
