@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Haoran Hu | NJU"
+title                    : "Haoran Hu · Data & Media"
 title_separator          : "-"
 name                     : "Haoran Hu"
-description              : "Undergraduate student in Big Data Communication at Nanjing University, interested in computational social science, LLMs, and data-driven communication research."
+description              : "Personal website of Haoran Hu, an undergraduate at Nanjing University working with data, media, and intelligent systems."
 url                      : https://provided21.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "provided21/provided21.github.io"
