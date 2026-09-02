@@ -5,7 +5,8 @@ collection: publications
 permalink: /publication/2026-icml-workshop-routerjudge
 date: 2026-06-15
 venue: "ICML 2026 Workshop"
-paperurl: ""
+paperurl: "https://openreview.net/forum?id=qx8X5hC9Kq"
+status: accepted
 citation: "et al., Haoran Hu. (2026). RouterJudge: Preference-Based Evaluation of LLM Routers under Pluralistic User Preferences. ICML 2026 Workshop."
 ---
 

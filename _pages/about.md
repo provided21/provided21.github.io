@@ -40,8 +40,8 @@ redirect_from:
       <span>Workshop acceptance for RouterJudge</span>
     </article>
     <article>
-      <strong>3 Papers</strong>
-      <span>Second-author work on LLM routing</span>
+      <strong>1 + 2</strong>
+      <span>Accepted paper and preprints</span>
     </article>
     <article>
       <strong>Full-stack</strong>
@@ -93,14 +93,14 @@ redirect_from:
         <p>Evaluating router behavior under pluralistic user preferences, with a focus on preference-aware model selection.</p>
       </article>
       <article>
-        <span>Under Review / TMLR</span>
+        <span>Preprint</span>
         <h3><a href="https://openreview.net/forum?id=K3xNTJOM1j&amp;referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)">Priors in LLM Routing</a></h3>
-        <p>Studying how priors influence routing behavior from initialization through regularization.</p>
+        <p>Preprint version studying how priors influence routing behavior from initialization through regularization.</p>
       </article>
       <article>
-        <span>Under Review / EMNLP</span>
+        <span>Preprint</span>
         <h3><a href="https://arxiv.org/abs/2606.06924">From Sampled Outcomes to Capability Distributions</a></h3>
-        <p>Rethinking supervision for routing by modeling capability distributions instead of isolated outcomes.</p>
+        <p>Preprint version rethinking supervision for routing by modeling capability distributions instead of isolated outcomes.</p>
       </article>
     </div>
   </section>

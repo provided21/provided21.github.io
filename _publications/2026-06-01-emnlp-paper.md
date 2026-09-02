@@ -1,12 +1,13 @@
 ---
 title: "From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing"
-excerpt: "Reframes LLM routing supervision from discrete outcome sampling to continuous capability distribution modeling. Under review at EMNLP 2026."
+excerpt: "Preprint version. Reframes LLM routing supervision from discrete outcome sampling to continuous capability distribution modeling."
 collection: publications
 permalink: /publication/2026-capability-distributions
 date: 2026-06-01
-venue: "Under review at EMNLP 2026"
-paperurl: ""
-citation: "et al., Haoran Hu. (2026). From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing. Under review at EMNLP."
+venue: "Preprint"
+paperurl: "https://arxiv.org/abs/2606.06924"
+status: preprint
+citation: "et al., Haoran Hu. (2026). From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing. Preprint."
 ---
 
 ## Abstract
@@ -15,4 +16,4 @@ This paper rethinks the supervision paradigm for LLM routing: rather than relyin
 
 **Role:** Second author.
 
-**Status:** Under review at EMNLP 2026
+**Status:** Preprint

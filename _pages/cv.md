@@ -24,8 +24,8 @@ Research Experience
   * Developed algorithm interfaces and general-purpose utility functions
   * Independently built **RouteJudge**, a full-stack application for routing decision evaluation
   * Second-author paper, **"RouterJudge: Preference-Based Evaluation of LLM Routers under Pluralistic User Preferences"** — accepted at **ICML Workshop**
-  * Second-author paper, **"Priors in LLM Routing: From Initialization to Regularization"** — under review at **TMLR**
-  * Second-author paper, **"From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing"** — under review at **EMNLP**
+  * Second-author preprint, **"Priors in LLM Routing: From Initialization to Regularization"**
+  * Second-author preprint, **"From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing"**
 
 * **LLM Population Simulation Project** (Spring 2026)
   * Investigating alignment between LLM-simulated policy attitudes and real-world survey data
@@ -72,7 +72,17 @@ Field & Leadership Experience
 Publications
 ======
   <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
+    {% if post.status == "accepted" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}</ul>
+
+Preprints
+======
+  <ul>{% for post in site.publications %}
+    {% if post.status == "preprint" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
   {% endfor %}</ul>
 
 Talks

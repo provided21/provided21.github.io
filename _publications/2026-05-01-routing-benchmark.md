@@ -1,12 +1,13 @@
 ---
 title: "Priors in LLM Routing: From Initialization to Regularization"
-excerpt: "Investigates how prior knowledge can be incorporated into LLM routing, from weight initialization through regularization. Under review at TMLR."
+excerpt: "Preprint version. Investigates how prior knowledge can be incorporated into LLM routing, from weight initialization through regularization."
 collection: publications
 permalink: /publication/2026-priors-llm-routing
 date: 2026-05-01
-venue: "Under review at TMLR (Transactions on Machine Learning Research)"
-paperurl: ""
-citation: "et al., Haoran Hu. (2026). Priors in LLM Routing: From Initialization to Regularization. Under review at TMLR."
+venue: "Preprint"
+paperurl: "https://openreview.net/forum?id=K3xNTJOM1j&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)"
+status: preprint
+citation: "et al., Haoran Hu. (2026). Priors in LLM Routing: From Initialization to Regularization. Preprint."
 ---
 
 ## Abstract
@@ -15,4 +16,4 @@ This paper investigates how different forms of prior knowledge can be systematic
 
 **Role:** Second author — contributed to benchmark construction, dataset processing, and experimental pipeline.
 
-**Status:** Under review at TMLR (Transactions on Machine Learning Research)
+**Status:** Preprint
