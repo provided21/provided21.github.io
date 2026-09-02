@@ -1,5 +1,6 @@
 ---
 title: "RouterJudge: Preference-Based Evaluation of LLM Routers under Pluralistic User Preferences"
+authors: "Guannan Lai, Haoran Hu, Han-Jia Ye"
 excerpt: "Proposes a preference-based evaluation framework for LLM routers accounting for diverse user preferences. Accepted at ICML 2026 Workshop."
 collection: publications
 permalink: /publication/2026-icml-workshop-routerjudge
@@ -7,7 +8,9 @@ date: 2026-06-15
 venue: "ICML 2026 Workshop"
 paperurl: "https://openreview.net/forum?id=qx8X5hC9Kq"
 status: accepted
-citation: "et al., Haoran Hu. (2026). RouterJudge: Preference-Based Evaluation of LLM Routers under Pluralistic User Preferences. ICML 2026 Workshop."
+citation: "Guannan Lai, Haoran Hu, and Han-Jia Ye. (2026). RouterJudge: Preference-Based Evaluation of LLM Routers under Pluralistic User Preferences. ICML 2026 Workshop."
+header:
+  teaser: routejudge.png
 ---
 
 ## Abstract
@@ -17,3 +20,5 @@ RouterJudge proposes a preference-based evaluation framework for LLM routers tha
 **Role:** Second author — contributed to full-stack application development (RouteJudge) and evaluation pipeline.
 
 **Status:** Accepted at ICML 2026 Workshop 🎉
+
+![RouteJudge system routing pipeline](/images/routejudge.png)

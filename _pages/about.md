@@ -89,18 +89,31 @@ redirect_from:
     <div class="home-work-list">
       <article>
         <span>Accepted / ICML Workshop</span>
-        <h3><a href="https://openreview.net/forum?id=qx8X5hC9Kq">RouterJudge: Preference-Based Evaluation of LLM Routers</a></h3>
-        <p>Evaluating router behavior under pluralistic user preferences, with a focus on preference-aware model selection.</p>
+        <div class="home-work-body">
+          <h3><a href="https://openreview.net/forum?id=qx8X5hC9Kq">RouterJudge: Preference-Based Evaluation of LLM Routers</a></h3>
+          <p class="home-paper-authors">Guannan Lai, Haoran Hu, Han-Jia Ye</p>
+          <p>Evaluating router behavior under pluralistic user preferences, with a focus on preference-aware model selection.</p>
+          <figure class="home-paper-figure">
+            <img src="/images/routejudge.png" alt="RouteJudge system routing pipeline">
+            <figcaption>RouteJudge system routing pipeline.</figcaption>
+          </figure>
+        </div>
       </article>
       <article>
         <span>Preprint</span>
-        <h3><a href="https://openreview.net/forum?id=K3xNTJOM1j&amp;referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)">Priors in LLM Routing</a></h3>
-        <p>Preprint version studying how priors influence routing behavior from initialization through regularization.</p>
+        <div class="home-work-body">
+          <h3><a href="https://openreview.net/forum?id=K3xNTJOM1j&amp;referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)">Priors in LLM Routing</a></h3>
+          <p class="home-paper-authors">Guannan Lai, Haoran Hu, Han-Jia Ye</p>
+          <p>Studying how priors influence routing behavior from initialization through regularization.</p>
+        </div>
       </article>
       <article>
         <span>Preprint</span>
-        <h3><a href="https://arxiv.org/abs/2606.06924">From Sampled Outcomes to Capability Distributions</a></h3>
-        <p>Preprint version rethinking supervision for routing by modeling capability distributions instead of isolated outcomes.</p>
+        <div class="home-work-body">
+          <h3><a href="https://arxiv.org/abs/2606.06924">From Sampled Outcomes to Capability Distributions</a></h3>
+          <p class="home-paper-authors">Guannan Lai, Haoran Hu, Long Chen, Zhenguo Li, Han-Jia Ye</p>
+          <p>Rethinking supervision for routing by modeling capability distributions instead of isolated outcomes.</p>
+        </div>
       </article>
     </div>
   </section>
