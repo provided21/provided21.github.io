@@ -93,10 +93,6 @@ redirect_from:
           <h3><a href="https://openreview.net/forum?id=qx8X5hC9Kq">RouterJudge: Preference-Based Evaluation of LLM Routers</a></h3>
           <p class="home-paper-authors">Guannan Lai, Haoran Hu, Han-Jia Ye</p>
           <p>Evaluating router behavior under pluralistic user preferences, with a focus on preference-aware model selection.</p>
-          <figure class="home-paper-figure">
-            <img src="/images/routejudge.png" alt="RouteJudge system routing pipeline">
-            <figcaption>RouteJudge system routing pipeline.</figcaption>
-          </figure>
         </div>
       </article>
       <article>

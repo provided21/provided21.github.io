@@ -18,11 +18,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-
-## Preprints
-
-{% for post in site.publications reversed %}
-  {% if post.status == "preprint" %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
