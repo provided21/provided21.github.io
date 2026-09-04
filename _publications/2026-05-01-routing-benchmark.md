@@ -6,8 +6,9 @@ collection: publications
 permalink: /publication/2026-priors-llm-routing
 date: 2026-05-01
 venue: "Preprint"
-paperurl: "https://openreview.net/forum?id=K3xNTJOM1j&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)"
-openreview: "https://openreview.net/forum?id=K3xNTJOM1j&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)"
+paperurl: "https://openreview.net/pdf?id=K3xNTJOM1j"
+paper: "https://openreview.net/pdf?id=K3xNTJOM1j"
+image: "/images/publications/priors-framework.png"
 paper_type: preprint
 badge: "Preprint"
 status: preprint

@@ -9,8 +9,9 @@ venue: "ICML 2026 Workshop"
 paperurl: "https://openreview.net/forum?id=qx8X5hC9Kq"
 projecturl: "https://routejudge.cn"
 arxiv: "https://arxiv.org/abs/2606.18774"
-paper: "https://arxiv.org/pdf/2606.18774"
+paper: "https://openreview.net/pdf?id=qx8X5hC9Kq"
 openreview: "https://openreview.net/forum?id=qx8X5hC9Kq"
+image: "/images/publications/routejudge-framework.png"
 paper_type: conference
 badge: "ICMLW 26"
 status: accepted

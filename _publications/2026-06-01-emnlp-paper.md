@@ -8,6 +8,10 @@ date: 2026-06-01
 venue: "EMNLP 2026"
 paperurl: "https://arxiv.org/abs/2606.06924"
 arxiv: "https://arxiv.org/abs/2606.06924"
+paper: "https://arxiv.org/pdf/2606.06924"
+codeurl: "https://github.com/AIGNLAI/DARS"
+dataseturl: "https://huggingface.co/datasets/AIGNLAI/DARS"
+image: "/images/publications/dars-framework.png"
 paper_type: conference
 badge: "EMNLP 26"
 status: accepted

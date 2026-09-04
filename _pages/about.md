@@ -93,7 +93,7 @@ redirect_from:
           <h3><a href="https://github.com/LAMDA-Model-Reuse/ORBIT">ORBIT: An Optimal Routing and Budgeted Inference Toolbox</a></h3>
           <p class="home-paper-authors">Guannan Lai, <strong>Haoran Hu</strong>, Hao-Xuan Ma, Han-Jia Ye</p>
           <p>A modular toolbox for standardized LLM routing research and budget-aware evaluation.</p>
-          <p class="home-paper-links"><a href="https://github.com/LAMDA-Model-Reuse/ORBIT">Code</a></p>
+          <p class="home-paper-links"><a href="https://www.lamda.nju.edu.cn/laign/file/FCS-261310-final.pdf">Paper</a><a href="https://github.com/LAMDA-Model-Reuse/ORBIT">Code</a></p>
         </div>
       </article>
       <article>
@@ -102,7 +102,7 @@ redirect_from:
           <h3><a href="https://arxiv.org/abs/2606.06924">From Sampled Outcomes to Capability Distributions</a></h3>
           <p class="home-paper-authors">Guannan Lai, <strong>Haoran Hu</strong>, Long Chen, Zhenguo Li, Han-Jia Ye</p>
           <p>Rethinking supervision for routing by modeling capability distributions instead of isolated outcomes.</p>
-          <p class="home-paper-links"><a href="https://arxiv.org/abs/2606.06924">arXiv</a></p>
+          <p class="home-paper-links"><a href="https://arxiv.org/pdf/2606.06924">Paper</a><a href="https://github.com/AIGNLAI/DARS">Code</a><a href="https://huggingface.co/datasets/AIGNLAI/DARS">Dataset</a></p>
         </div>
       </article>
       <article>
@@ -111,7 +111,7 @@ redirect_from:
           <h3><a href="https://openreview.net/forum?id=qx8X5hC9Kq">RouteJudge: Preference-Based Evaluation of LLM Routers</a></h3>
           <p class="home-paper-authors">Guannan Lai, <strong>Haoran Hu</strong>, Han-Jia Ye</p>
           <p>Evaluating router behavior under pluralistic user preferences, with a focus on preference-aware model selection.</p>
-          <p class="home-paper-links"><a href="https://routejudge.cn">Project Website</a><a href="https://arxiv.org/abs/2606.18774">arXiv</a><a href="https://openreview.net/forum?id=qx8X5hC9Kq">OpenReview</a></p>
+          <p class="home-paper-links"><a href="https://routejudge.cn">Project Website</a><a href="https://openreview.net/pdf?id=qx8X5hC9Kq">Paper</a><a href="https://openreview.net/forum?id=qx8X5hC9Kq">OpenReview</a></p>
         </div>
       </article>
     </div>
