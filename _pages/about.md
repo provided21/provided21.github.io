@@ -11,8 +11,8 @@ redirect_from:
   <section class="home-hero" aria-labelledby="home-hero-title">
     <div class="home-hero__copy">
       <p class="home-kicker">Nanjing University / Big Data Communication</p>
-      <h1 id="home-hero-title">I work with data, media, and intelligent systems.</h1>
-      <p class="home-hero__lead">I am Haoran Hu, an undergraduate at Nanjing University. I enjoy turning messy information into clear systems, useful tools, and readable analysis.</p>
+      <h1 id="home-hero-title">I build tools and evaluations for reusing large language models.</h1>
+      <p class="home-hero__lead">I am Haoran Hu, an undergraduate at Nanjing University. My recent work focuses on model routing, budget-aware inference, and evaluation systems that make model selection more reliable.</p>
       <div class="home-hero__actions" aria-label="Primary links">
         <a class="home-button home-button--primary" href="/portfolio/">View projects</a>
         <a class="home-button" href="/publications/">Publications</a>
@@ -24,7 +24,7 @@ redirect_from:
       <img src="/images/profile.png" alt="Haoran Hu">
       <div>
         <h2>Haoran Hu</h2>
-        <p>Undergraduate researcher interested in model reuse, with recent focus on model routing.</p>
+        <p>Undergraduate researcher working on model reuse, routing, and evaluation.</p>
       </div>
       <dl>
         <div><dt>GPA</dt><dd>4.4 / 5.0, rank 2</dd></div>
@@ -53,7 +53,7 @@ redirect_from:
     <p class="home-kicker">Research Area</p>
     <div class="home-section__split">
       <h2>Model reuse, with recent focus on model routing.</h2>
-      <p>My recent work studies how existing models can be selected, evaluated, and reused more effectively under practical constraints such as quality, cost, and user preference.</p>
+      <p>My recent work studies how existing models can be selected, evaluated, and reused under practical constraints such as quality, cost, risk, and user preference.</p>
     </div>
   </section>
 
@@ -86,31 +86,34 @@ redirect_from:
       <p class="home-kicker">Selected Work</p>
       <h2>Selected publications</h2>
     </div>
-    <div class="home-work-list">
-      <article>
-        <span>Frontiers of Computer Science</span>
-        <div class="home-work-body">
-          <h3><a href="https://github.com/LAMDA-Model-Reuse/ORBIT">ORBIT: An Optimal Routing and Budgeted Inference Toolbox</a></h3>
-          <p class="home-paper-authors">Guannan Lai, <strong>Haoran Hu</strong>, Hao-Xuan Ma, Han-Jia Ye</p>
-          <p>A modular toolbox for standardized LLM routing research and budget-aware evaluation.</p>
-          <p class="home-paper-links"><a href="https://www.lamda.nju.edu.cn/laign/file/FCS-261310-final.pdf">Paper</a><a href="https://github.com/LAMDA-Model-Reuse/ORBIT">Code</a></p>
-        </div>
-      </article>
-      <article>
-        <span>EMNLP 2026</span>
-        <div class="home-work-body">
+    <div class="home-publication-list">
+      <article class="home-publication-card">
+        <img src="/images/publications/dars-framework.png" alt="">
+        <div>
+          <span>EMNLP 2026</span>
           <h3><a href="https://arxiv.org/abs/2606.06924">From Sampled Outcomes to Capability Distributions</a></h3>
           <p class="home-paper-authors">Guannan Lai, <strong>Haoran Hu</strong>, Long Chen, Zhenguo Li, Han-Jia Ye</p>
-          <p>Rethinking supervision for routing by modeling capability distributions instead of isolated outcomes.</p>
+          <p>Models routing supervision as capability distributions for more robust model selection.</p>
           <p class="home-paper-links"><a href="https://arxiv.org/pdf/2606.06924">Paper</a><a href="https://github.com/AIGNLAI/DARS">Code</a><a href="https://huggingface.co/datasets/AIGNLAI/DARS">Dataset</a></p>
         </div>
       </article>
-      <article>
-        <span>ICML 2026 Workshop</span>
-        <div class="home-work-body">
+      <article class="home-publication-card">
+        <img src="/images/publications/orbit.jpg" alt="">
+        <div>
+          <span>Frontiers of Computer Science</span>
+          <h3><a href="https://www.lamda.nju.edu.cn/laign/file/FCS-261310-final.pdf">ORBIT: An Optimal Routing and Budgeted Inference Toolbox</a></h3>
+          <p class="home-paper-authors">Guannan Lai, <strong>Haoran Hu</strong>, Hao-Xuan Ma, Han-Jia Ye</p>
+          <p>A toolbox for benchmarking, training, and evaluating budget-aware inference routers.</p>
+          <p class="home-paper-links"><a href="https://www.lamda.nju.edu.cn/laign/file/FCS-261310-final.pdf">Paper</a><a href="https://github.com/LAMDA-Model-Reuse/ORBIT">Code</a></p>
+        </div>
+      </article>
+      <article class="home-publication-card">
+        <img src="/images/publications/routejudge-framework.png" alt="">
+        <div>
+          <span>ICML 2026 Workshop</span>
           <h3><a href="https://openreview.net/forum?id=qx8X5hC9Kq">RouteJudge: Preference-Based Evaluation of LLM Routers</a></h3>
           <p class="home-paper-authors">Guannan Lai, <strong>Haoran Hu</strong>, Han-Jia Ye</p>
-          <p>Evaluating router behavior under pluralistic user preferences, with a focus on preference-aware model selection.</p>
+          <p>Evaluates router decisions under pluralistic user preferences and budget constraints.</p>
           <p class="home-paper-links"><a href="https://routejudge.cn">Project Website</a><a href="https://openreview.net/pdf?id=qx8X5hC9Kq">Paper</a><a href="https://openreview.net/forum?id=qx8X5hC9Kq">OpenReview</a></p>
         </div>
       </article>
@@ -120,28 +123,28 @@ redirect_from:
   <section class="home-section">
     <div class="home-section__header">
       <p class="home-kicker">Project Portfolio</p>
-      <h2>Systems and data work</h2>
+      <h2>Research systems and data work</h2>
     </div>
     <div class="home-projects">
       <a href="/portfolio/routejudge/">
-        <span>Evaluation System</span>
+        <span>Router Evaluation</span>
         <strong>RouteJudge</strong>
-        <p>Full-stack application for evaluating model routing decisions.</p>
+        <p>Preference-based evaluation interface for comparing routing decisions under user constraints.</p>
+      </a>
+      <a href="https://github.com/LAMDA-Model-Reuse/ORBIT">
+        <span>Routing Toolbox</span>
+        <strong>ORBIT</strong>
+        <p>Reusable benchmark and evaluation toolkit for budget-aware model routing research.</p>
+      </a>
+      <a href="https://github.com/AIGNLAI/DARS">
+        <span>Supervision Data</span>
+        <strong>DARS</strong>
+        <p>Code and dataset pipeline for capability-distribution supervision in LLM routing.</p>
       </a>
       <a href="/portfolio/llm-assistant/">
         <span>AI Application</span>
         <strong>LLM Assistant</strong>
-        <p>Assistant experiments with MCP protocol integration.</p>
-      </a>
-      <a href="/portfolio/douban-crawler/">
-        <span>Data Collection</span>
-        <strong>Douban Movie Crawler</strong>
-        <p>Automated collection tooling for media data analysis.</p>
-      </a>
-      <a href="/portfolio/kaggle-ncaa/">
-        <span>Predictive Modeling</span>
-        <strong>Kaggle NCAA</strong>
-        <p>March Madness prediction project, top 40%+ finish.</p>
+        <p>Assistant experiments around tool use, MCP integration, and applied LLM workflows.</p>
       </a>
     </div>
   </section>

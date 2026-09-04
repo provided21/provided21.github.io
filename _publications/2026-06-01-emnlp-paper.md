@@ -14,6 +14,7 @@ dataseturl: "https://huggingface.co/datasets/AIGNLAI/DARS"
 image: "/images/publications/dars-framework.png"
 paper_type: conference
 badge: "EMNLP 26"
+publication_order: 10
 status: accepted
 citation: "Guannan Lai, <strong>Haoran Hu</strong>, Long Chen, Zhenguo Li, and Han-Jia Ye. (2026). From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing. EMNLP 2026."
 ---

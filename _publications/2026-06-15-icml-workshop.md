@@ -14,6 +14,7 @@ openreview: "https://openreview.net/forum?id=qx8X5hC9Kq"
 image: "/images/publications/routejudge-framework.png"
 paper_type: conference
 badge: "ICMLW 26"
+publication_order: 30
 status: accepted
 citation: "Guannan Lai, <strong>Haoran Hu</strong>, and Han-Jia Ye. (2026). RouteJudge: Preference-Based Evaluation of LLM Routers under Pluralistic User Preferences. ICML 2026 Workshop."
 ---

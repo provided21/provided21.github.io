@@ -11,6 +11,7 @@ paper: "https://openreview.net/pdf?id=K3xNTJOM1j"
 image: "/images/publications/priors-framework.png"
 paper_type: preprint
 badge: "Preprint"
+publication_order: 40
 status: preprint
 citation: "Guannan Lai, <strong>Haoran Hu</strong>, and Han-Jia Ye. (2026). Priors in LLM Routing: From Initialization to Regularization. Preprint."
 ---

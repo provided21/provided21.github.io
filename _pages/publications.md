@@ -10,10 +10,11 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
+{% assign publications_by_order = site.publications | sort: "publication_order" %}
 
 ## Conference Papers
 
-{% for post in site.publications reversed %}
+{% for post in publications_by_order %}
 {% if post.paper_type == "conference" %}
 {% include publication-card.html %}
 {% endif %}
@@ -21,7 +22,7 @@ author_profile: true
 
 ## Journal Papers
 
-{% for post in site.publications reversed %}
+{% for post in publications_by_order %}
 {% if post.paper_type == "journal" %}
 {% include publication-card.html %}
 {% endif %}
@@ -29,7 +30,7 @@ author_profile: true
 
 ## Preprints
 
-{% for post in site.publications reversed %}
+{% for post in publications_by_order %}
 {% if post.paper_type == "preprint" %}
 {% include publication-card.html %}
 {% endif %}
