@@ -14,23 +14,23 @@ author_profile: true
 ## Conference Papers
 
 {% for post in site.publications reversed %}
-  {% if post.paper_type == "conference" %}
-    {% include publication-card.html %}
-  {% endif %}
+{% if post.paper_type == "conference" %}
+{% include publication-card.html %}
+{% endif %}
 {% endfor %}
 
 ## Journal Papers
 
 {% for post in site.publications reversed %}
-  {% if post.paper_type == "journal" %}
-    {% include publication-card.html %}
-  {% endif %}
+{% if post.paper_type == "journal" %}
+{% include publication-card.html %}
+{% endif %}
 {% endfor %}
 
 ## Preprints
 
 {% for post in site.publications reversed %}
-  {% if post.paper_type == "preprint" %}
-    {% include publication-card.html %}
-  {% endif %}
+{% if post.paper_type == "preprint" %}
+{% include publication-card.html %}
+{% endif %}
 {% endfor %}
