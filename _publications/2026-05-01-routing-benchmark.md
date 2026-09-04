@@ -1,6 +1,6 @@
 ---
 title: "Priors in LLM Routing: From Initialization to Regularization"
-authors: "Guannan Lai, Haoran Hu, Han-Jia Ye"
+authors: "Guannan Lai, <strong>Haoran Hu</strong>, Han-Jia Ye"
 excerpt: "Investigates how prior knowledge can be incorporated into LLM routing, from weight initialization through regularization."
 collection: publications
 permalink: /publication/2026-priors-llm-routing
@@ -8,7 +8,7 @@ date: 2026-05-01
 venue: "Preprint"
 paperurl: "https://openreview.net/forum?id=K3xNTJOM1j&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)"
 status: preprint
-citation: "Guannan Lai, Haoran Hu, and Han-Jia Ye. (2026). Priors in LLM Routing: From Initialization to Regularization. Preprint."
+citation: "Guannan Lai, <strong>Haoran Hu</strong>, and Han-Jia Ye. (2026). Priors in LLM Routing: From Initialization to Regularization. Preprint."
 ---
 
 ## Abstract

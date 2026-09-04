@@ -24,7 +24,7 @@ redirect_from:
       <img src="/images/profile.png" alt="Haoran Hu">
       <div>
         <h2>Haoran Hu</h2>
-        <p>Undergraduate researcher focused on LLM routing, evaluation pipelines, and computational social science.</p>
+        <p>Undergraduate researcher interested in model reuse, with recent work on model routing and evaluation.</p>
       </div>
       <dl>
         <div><dt>GPA</dt><dd>4.4 / 5.0, rank 2</dd></div>
@@ -36,47 +36,47 @@ redirect_from:
 
   <section class="home-metrics" aria-label="Highlights">
     <article>
-      <strong>ICML 2026</strong>
-      <span>Workshop acceptance for RouterJudge</span>
+      <strong>FCS 2026</strong>
+      <span>ORBIT accepted</span>
     </article>
     <article>
-      <strong>1 + 2</strong>
-      <span>Accepted paper and preprints</span>
+      <strong>EMNLP 2026</strong>
+      <span>Routing supervision paper accepted</span>
     </article>
     <article>
-      <strong>Full-stack</strong>
-      <span>Independent RouteJudge application build</span>
+      <strong>ICMLW 2026</strong>
+      <span>RouteJudge accepted</span>
     </article>
   </section>
 
   <section class="home-section home-section--intro">
-    <p class="home-kicker">Current Focus</p>
+    <p class="home-kicker">Research Area</p>
     <div class="home-section__split">
-      <h2>Making complex information easier to inspect, compare, and use.</h2>
-      <p>My work usually sits between communication studies and technical implementation: cleaning datasets, building small systems, designing evaluation workflows, and writing things down clearly enough that other people can build on them.</p>
+      <h2>Model reuse, with recent focus on model routing.</h2>
+      <p>My recent work studies how existing models can be selected, evaluated, and reused more effectively under practical constraints such as quality, cost, and user preference.</p>
     </div>
   </section>
 
   <section class="home-section">
     <div class="home-section__header">
-      <p class="home-kicker">What I Do</p>
-      <h2>Ways of working</h2>
+      <p class="home-kicker">Research Interests</p>
+      <h2>Model reuse and routing</h2>
     </div>
     <div class="home-interest-grid" aria-label="Research interests">
       <article>
         <span>01</span>
-        <h3>Data Work</h3>
-        <p>Cleaning, structuring, and analyzing information so patterns become easier to see and explain.</p>
+        <h3>Model Reuse</h3>
+        <p>Reusing and adapting existing models under changing tasks, budgets, and deployment constraints.</p>
       </article>
       <article>
         <span>02</span>
-        <h3>Tool Building</h3>
-        <p>Creating practical interfaces, scripts, and workflows that make technical ideas usable.</p>
+        <h3>Model Routing</h3>
+        <p>Selecting suitable models for different queries with attention to quality, cost, and preference.</p>
       </article>
       <article>
         <span>03</span>
-        <h3>Communication</h3>
-        <p>Turning technical work into clear writing, visual structure, and public-facing materials.</p>
+        <h3>Evaluation</h3>
+        <p>Designing benchmarks, protocols, and tools for reproducible comparison of intelligent systems.</p>
       </article>
     </div>
   </section>
@@ -84,31 +84,31 @@ redirect_from:
   <section class="home-section">
     <div class="home-section__header">
       <p class="home-kicker">Selected Work</p>
-      <h2>Recent research</h2>
+      <h2>Selected publications</h2>
     </div>
     <div class="home-work-list">
       <article>
-        <span>Accepted / ICML Workshop</span>
+        <span>Frontiers of Computer Science</span>
         <div class="home-work-body">
-          <h3><a href="https://openreview.net/forum?id=qx8X5hC9Kq">RouterJudge: Preference-Based Evaluation of LLM Routers</a></h3>
-          <p class="home-paper-authors">Guannan Lai, Haoran Hu, Han-Jia Ye</p>
-          <p>Evaluating router behavior under pluralistic user preferences, with a focus on preference-aware model selection.</p>
+          <h3><a href="https://github.com/LAMDA-Model-Reuse/ORBIT">ORBIT: An Optimal Routing and Budgeted Inference Toolbox</a></h3>
+          <p class="home-paper-authors">Guannan Lai, <strong>Haoran Hu</strong>, Hao-Xuan Ma, Han-Jia Ye</p>
+          <p>A modular toolbox for standardized LLM routing research and budget-aware evaluation.</p>
         </div>
       </article>
       <article>
-        <span>Preprint</span>
-        <div class="home-work-body">
-          <h3><a href="https://openreview.net/forum?id=K3xNTJOM1j&amp;referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)">Priors in LLM Routing</a></h3>
-          <p class="home-paper-authors">Guannan Lai, Haoran Hu, Han-Jia Ye</p>
-          <p>Studying how priors influence routing behavior from initialization through regularization.</p>
-        </div>
-      </article>
-      <article>
-        <span>Preprint</span>
+        <span>EMNLP 2026</span>
         <div class="home-work-body">
           <h3><a href="https://arxiv.org/abs/2606.06924">From Sampled Outcomes to Capability Distributions</a></h3>
-          <p class="home-paper-authors">Guannan Lai, Haoran Hu, Long Chen, Zhenguo Li, Han-Jia Ye</p>
+          <p class="home-paper-authors">Guannan Lai, <strong>Haoran Hu</strong>, Long Chen, Zhenguo Li, Han-Jia Ye</p>
           <p>Rethinking supervision for routing by modeling capability distributions instead of isolated outcomes.</p>
+        </div>
+      </article>
+      <article>
+        <span>ICML 2026 Workshop</span>
+        <div class="home-work-body">
+          <h3><a href="https://openreview.net/forum?id=qx8X5hC9Kq">RouterJudge: Preference-Based Evaluation of LLM Routers</a></h3>
+          <p class="home-paper-authors">Guannan Lai, <strong>Haoran Hu</strong>, Han-Jia Ye</p>
+          <p>Evaluating router behavior under pluralistic user preferences, with a focus on preference-aware model selection.</p>
         </div>
       </article>
     </div>
@@ -168,5 +168,5 @@ redirect_from:
     </div>
   </section>
 
-  <p class="home-updated">Last updated: June 2026</p>
+  <p class="home-updated">Last updated: September 2026</p>
 </section>

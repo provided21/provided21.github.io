@@ -1,14 +1,14 @@
 ---
 title: "From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing"
-authors: "Guannan Lai, Haoran Hu, Long Chen, Zhenguo Li, Han-Jia Ye"
+authors: "Guannan Lai, <strong>Haoran Hu</strong>, Long Chen, Zhenguo Li, Han-Jia Ye"
 excerpt: "Reframes LLM routing supervision from discrete outcome sampling to continuous capability distribution modeling."
 collection: publications
 permalink: /publication/2026-capability-distributions
 date: 2026-06-01
-venue: "Preprint"
+venue: "EMNLP 2026"
 paperurl: "https://arxiv.org/abs/2606.06924"
-status: preprint
-citation: "Guannan Lai, Haoran Hu, Long Chen, Zhenguo Li, and Han-Jia Ye. (2026). From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing. Preprint."
+status: accepted
+citation: "Guannan Lai, <strong>Haoran Hu</strong>, Long Chen, Zhenguo Li, and Han-Jia Ye. (2026). From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing. EMNLP 2026."
 ---
 
 ## Abstract
@@ -17,4 +17,4 @@ This paper rethinks the supervision paradigm for LLM routing: rather than relyin
 
 **Role:** Second author.
 
-**Status:** Preprint
+**Status:** Accepted at EMNLP 2026
