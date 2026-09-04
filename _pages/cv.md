@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * **B.A. in Big Data Communication**, Nanjing University, 2024–Present (Expected 2027)
-  * **GPA: 4.4 / 5.0** — Rank 2 in major
+  * **GPA: 4.44 / 5.0** — Rank 2 in major
   * Big Data Communication Experimental Class, School of Journalism and Communication
   * **Relevant Coursework:** Machine Learning, Data Science & Analytics, Probability & Statistics, Data Structures & Algorithms, AI Programming, Database Systems, Discrete Mathematics, Introduction to AI
 
