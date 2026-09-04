@@ -11,10 +11,26 @@ author_profile: true
 
 {% include base_path %}
 
-## Publications
+## Conference Papers
 
 {% for post in site.publications reversed %}
-  {% if post.status == "accepted" %}
-    {% include archive-single.html %}
+  {% if post.paper_type == "conference" %}
+    {% include publication-card.html %}
+  {% endif %}
+{% endfor %}
+
+## Journal Papers
+
+{% for post in site.publications reversed %}
+  {% if post.paper_type == "journal" %}
+    {% include publication-card.html %}
+  {% endif %}
+{% endfor %}
+
+## Preprints
+
+{% for post in site.publications reversed %}
+  {% if post.paper_type == "preprint" %}
+    {% include publication-card.html %}
   {% endif %}
 {% endfor %}

@@ -25,7 +25,7 @@ Research Experience
   * Independently built **RouteJudge**, a full-stack application for routing decision evaluation
   * Second-author paper, **"ORBIT: An Optimal Routing and Budgeted Inference Toolbox"** — accepted at **Frontiers of Computer Science**
   * Second-author paper, **"From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing"** — accepted at **EMNLP 2026**
-  * Second-author paper, **"RouterJudge: Preference-Based Evaluation of LLM Routers under Pluralistic User Preferences"** — accepted at **ICML Workshop**
+  * Second-author paper, **"RouteJudge: Preference-Based Evaluation of LLM Routers under Pluralistic User Preferences"** — accepted at **ICML Workshop**
 
 * **LLM Population Simulation Project** (Spring 2026)
   * Investigating alignment between LLM-simulated policy attitudes and real-world survey data
@@ -73,6 +73,14 @@ Publications
 ======
   <ul>{% for post in site.publications %}
     {% if post.status == "accepted" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}</ul>
+
+Preprints
+======
+  <ul>{% for post in site.publications %}
+    {% if post.status == "preprint" %}
       {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}</ul>

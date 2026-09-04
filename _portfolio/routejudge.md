@@ -12,7 +12,7 @@ RouteJudge is a full-stack web application designed for evaluating LLM routing d
 - Designed evaluation framework supporting pluralistic preference configurations
 - Integrated with RoutingToolBox benchmark pipeline
 
-**Related Publication:** *RouterJudge: Preference-Based Evaluation of LLM Routers under Pluralistic User Preferences* — accepted at ICML 2026 Workshop
+**Related Publication:** *RouteJudge: Preference-Based Evaluation of LLM Routers under Pluralistic User Preferences* — accepted at ICML 2026 Workshop
 
 ![RouteJudge System Architecture](/images/routejudge.png)
 

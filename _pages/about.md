@@ -24,7 +24,7 @@ redirect_from:
       <img src="/images/profile.png" alt="Haoran Hu">
       <div>
         <h2>Haoran Hu</h2>
-        <p>Undergraduate researcher interested in model reuse, with recent work on model routing and evaluation.</p>
+        <p>Undergraduate researcher interested in model reuse, with recent focus on model routing.</p>
       </div>
       <dl>
         <div><dt>GPA</dt><dd>4.4 / 5.0, rank 2</dd></div>
@@ -93,6 +93,7 @@ redirect_from:
           <h3><a href="https://github.com/LAMDA-Model-Reuse/ORBIT">ORBIT: An Optimal Routing and Budgeted Inference Toolbox</a></h3>
           <p class="home-paper-authors">Guannan Lai, <strong>Haoran Hu</strong>, Hao-Xuan Ma, Han-Jia Ye</p>
           <p>A modular toolbox for standardized LLM routing research and budget-aware evaluation.</p>
+          <p class="home-paper-links"><a href="https://github.com/LAMDA-Model-Reuse/ORBIT">Code</a></p>
         </div>
       </article>
       <article>
@@ -101,14 +102,16 @@ redirect_from:
           <h3><a href="https://arxiv.org/abs/2606.06924">From Sampled Outcomes to Capability Distributions</a></h3>
           <p class="home-paper-authors">Guannan Lai, <strong>Haoran Hu</strong>, Long Chen, Zhenguo Li, Han-Jia Ye</p>
           <p>Rethinking supervision for routing by modeling capability distributions instead of isolated outcomes.</p>
+          <p class="home-paper-links"><a href="https://arxiv.org/abs/2606.06924">arXiv</a></p>
         </div>
       </article>
       <article>
         <span>ICML 2026 Workshop</span>
         <div class="home-work-body">
-          <h3><a href="https://openreview.net/forum?id=qx8X5hC9Kq">RouterJudge: Preference-Based Evaluation of LLM Routers</a></h3>
+          <h3><a href="https://openreview.net/forum?id=qx8X5hC9Kq">RouteJudge: Preference-Based Evaluation of LLM Routers</a></h3>
           <p class="home-paper-authors">Guannan Lai, <strong>Haoran Hu</strong>, Han-Jia Ye</p>
           <p>Evaluating router behavior under pluralistic user preferences, with a focus on preference-aware model selection.</p>
+          <p class="home-paper-links"><a href="https://routejudge.cn">Project Website</a><a href="https://arxiv.org/abs/2606.18774">arXiv</a><a href="https://openreview.net/forum?id=qx8X5hC9Kq">OpenReview</a></p>
         </div>
       </article>
     </div>
