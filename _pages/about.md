@@ -10,13 +10,14 @@ redirect_from:
 <section class="home-shell">
   <section class="home-hero" aria-labelledby="home-hero-title">
     <div class="home-hero__copy">
-      <p class="home-kicker">Nanjing University / Big Data Communication</p>
-      <h1 id="home-hero-title">I build tools and evaluations for reusing large language models.</h1>
-      <p class="home-hero__lead">I am Haoran Hu, an undergraduate at Nanjing University. My recent work focuses on model routing, budget-aware inference, and evaluation systems that make model selection more reliable.</p>
+      <p class="home-kicker">Nanjing University · Big Data Communication</p>
+      <h1 id="home-hero-title">Hi, I’m Haoran Hu.</h1>
+      <p class="home-hero__lead">I am an undergraduate in the <strong>Big Data Communication Experimental Program</strong> at Nanjing University. My research interests are <strong>Model Routing</strong> and <strong>Computational Communication</strong>.</p>
+      <p class="home-hero__affiliation">School of Journalism and Communication · Nanjing University</p>
       <div class="home-hero__actions" aria-label="Primary links">
-        <a class="home-button home-button--primary" href="/portfolio/">View projects</a>
-        <a class="home-button" href="/publications/">Publications</a>
-        <a class="home-button" href="#contact">Contact</a>
+        <a class="home-button home-button--primary" href="/publications/">Publications</a>
+        <a class="home-button" href="/cv/">CV</a>
+        <a class="home-button" href="https://github.com/provided21">GitHub</a>
       </div>
     </div>
 
@@ -24,71 +25,49 @@ redirect_from:
       <img src="/images/profile.png" alt="Haoran Hu">
       <div>
         <h2>Haoran Hu</h2>
-        <p>Undergraduate researcher working on model reuse, routing, and evaluation.</p>
+        <p>Undergraduate researcher at the intersection of AI and communication.</p>
       </div>
       <dl>
-        <div><dt>GPA</dt><dd>4.4 / 5.0, rank 2</dd></div>
-        <div><dt>Location</dt><dd>Nanjing, China</dd></div>
-        <div><dt>Email</dt><dd>huhr@smail.nju.edu.cn</dd></div>
+        <div><dt>Program</dt><dd>Big Data Communication</dd></div>
+        <div><dt>GPA</dt><dd>4.44 / 5.0</dd></div>
+        <div><dt>Rank</dt><dd>2 / 16</dd></div>
       </dl>
     </aside>
-  </section>
-
-  <section class="home-metrics" aria-label="Highlights">
-    <article>
-      <strong>FCS 2026</strong>
-      <span>ORBIT accepted</span>
-    </article>
-    <article>
-      <strong>EMNLP 2026</strong>
-      <span>Routing supervision paper accepted</span>
-    </article>
-    <article>
-      <strong>ICMLW 2026</strong>
-      <span>RouteJudge accepted</span>
-    </article>
-  </section>
-
-  <section class="home-section home-section--intro">
-    <p class="home-kicker">Research Area</p>
-    <div class="home-section__split">
-      <h2>Model reuse, with recent focus on model routing.</h2>
-      <p>My recent work studies how existing models can be selected, evaluated, and reused under practical constraints such as quality, cost, risk, and user preference.</p>
-    </div>
   </section>
 
   <section class="home-section">
     <div class="home-section__header">
       <p class="home-kicker">Research Interests</p>
-      <h2>Model reuse and routing</h2>
+      <h2>Two connected lines of inquiry</h2>
     </div>
-    <div class="home-interest-grid" aria-label="Research interests">
+    <div class="home-interest-grid home-interest-grid--two" aria-label="Research interests">
       <article>
         <span>01</span>
-        <h3>Model Reuse</h3>
-        <p>Reusing and adapting existing models under changing tasks, budgets, and deployment constraints.</p>
+        <h3>Model Routing</h3>
+        <p>Routing queries across heterogeneous language models under quality, cost, and deployment constraints.</p>
+        <ul class="home-tag-list" aria-label="Model routing topics">
+          <li>LLM Routing</li><li>Model Selection</li><li>Evaluation</li>
+        </ul>
       </article>
       <article>
         <span>02</span>
-        <h3>Model Routing</h3>
-        <p>Selecting suitable models for different queries with attention to quality, cost, and preference.</p>
-      </article>
-      <article>
-        <span>03</span>
-        <h3>Evaluation</h3>
-        <p>Designing benchmarks, protocols, and tools for reproducible comparison of intelligent systems.</p>
+        <h3>Computational Communication</h3>
+        <p>Using computational methods and AI to study communication behavior, media systems, and social attitudes.</p>
+        <ul class="home-tag-list" aria-label="Computational communication topics">
+          <li>Computational Social Science</li><li>Digital Media</li><li>AI &amp; Communication</li>
+        </ul>
       </article>
     </div>
   </section>
 
   <section class="home-section">
     <div class="home-section__header">
-      <p class="home-kicker">Selected Work</p>
-      <h2>Selected publications</h2>
+      <p class="home-kicker">Selected Publications</p>
+      <h2>Recent research</h2>
     </div>
     <div class="home-publication-list">
       <article class="home-publication-card">
-        <img src="/images/publications/dars-framework.png" alt="">
+        <img src="/images/publications/dars-framework.png" alt="Framework for capability-distribution supervision in LLM routing">
         <div>
           <span>EMNLP 2026</span>
           <h3><a href="https://arxiv.org/abs/2606.06924">From Sampled Outcomes to Capability Distributions</a></h3>
@@ -98,7 +77,7 @@ redirect_from:
         </div>
       </article>
       <article class="home-publication-card">
-        <img src="/images/publications/orbit.jpg" alt="">
+        <img src="/images/publications/orbit.jpg" alt="Overview of the ORBIT routing toolbox">
         <div>
           <span>Frontiers of Computer Science</span>
           <h3><a href="https://www.lamda.nju.edu.cn/laign/file/FCS-261310-final.pdf">ORBIT: An Optimal Routing and Budgeted Inference Toolbox</a></h3>
@@ -108,7 +87,7 @@ redirect_from:
         </div>
       </article>
       <article class="home-publication-card">
-        <img src="/images/publications/routejudge-framework.png" alt="">
+        <img src="/images/publications/routejudge-framework.png" alt="Overview of the RouteJudge evaluation framework">
         <div>
           <span>ICML 2026 Workshop</span>
           <h3><a href="https://openreview.net/forum?id=qx8X5hC9Kq">RouteJudge: Preference-Based Evaluation of LLM Routers</a></h3>
@@ -118,59 +97,43 @@ redirect_from:
         </div>
       </article>
     </div>
+    <p class="home-section__link"><a href="/publications/">View all publications →</a></p>
   </section>
 
   <section class="home-section">
     <div class="home-section__header">
-      <p class="home-kicker">Project Portfolio</p>
-      <h2>Research systems and data work</h2>
+      <p class="home-kicker">Communication &amp; Media</p>
+      <h2>Research, reporting, and field practice</h2>
     </div>
-    <div class="home-projects">
-      <a href="/portfolio/routejudge/">
-        <span>Router Evaluation</span>
-        <strong>RouteJudge</strong>
-        <p>Preference-based evaluation interface for comparing routing decisions under user constraints.</p>
+    <div class="home-projects home-projects--three">
+      <a href="/communication-media/#computational-communication">
+        <span>Research</span>
+        <strong>Computational Communication</strong>
+        <p>French Policy Attitude Simulation · NFC Adoption Study</p>
       </a>
-      <a href="https://github.com/LAMDA-Model-Reuse/ORBIT">
-        <span>Routing Toolbox</span>
-        <strong>ORBIT</strong>
-        <p>Reusable benchmark and evaluation toolkit for budget-aware model routing research.</p>
+      <a href="/communication-media/#journalism-media">
+        <span>Practice</span>
+        <strong>Journalism &amp; Media</strong>
+        <p>Xinchao · NJU Xiao Lanjing</p>
       </a>
-      <a href="https://github.com/AIGNLAI/DARS">
-        <span>Supervision Data</span>
-        <strong>DARS</strong>
-        <p>Code and dataset pipeline for capability-distribution supervision in LLM routing.</p>
+      <a href="/communication-media/#fieldwork">
+        <span>Field Study</span>
+        <strong>Fieldwork</strong>
+        <p>Global Field Study in Singapore and Malaysia</p>
       </a>
-      <a href="/portfolio/llm-assistant/">
-        <span>AI Application</span>
-        <strong>LLM Assistant</strong>
-        <p>Assistant experiments around tool use, MCP integration, and applied LLM workflows.</p>
-      </a>
-    </div>
-  </section>
-
-  <section class="home-section home-section--service">
-    <div>
-      <p class="home-kicker">Beyond Research</p>
-      <h2>Teamwork and public-facing practice.</h2>
-    </div>
-    <div>
-      <p>I served as financial manager for a 12-person interdisciplinary summer teaching volunteer team in Shangluo, Shaanxi, managing budget, expenses, and reconciliation with zero errors. I also work on WeChat official account operation and video editing, connecting technical execution with communication practice.</p>
-      <ul>
-        <li>Excellent Volunteer, Nanyang Dream Plan</li>
-        <li>Excellent Member, Xiao Lan Jing</li>
-        <li>University-level project approval for summer teaching service</li>
-      </ul>
     </div>
   </section>
 
   <section class="home-contact" id="contact" aria-label="Contact">
     <p class="home-kicker">Contact</p>
-    <h2>Open to collaboration, project conversations, and thoughtful technical work.</h2>
+    <h2>Research conversations and collaboration are welcome.</h2>
     <p class="home-contact__email">huhr@smail.nju.edu.cn</p>
     <div class="home-hero__actions">
-      <a class="home-button" href="https://github.com/provided21">GitHub @provided21</a>
-      <a class="home-button" href="/cv/">View CV</a>
+      <a class="home-button" href="mailto:huhr@smail.nju.edu.cn">Email</a>
+      <a class="home-button" href="https://github.com/provided21">GitHub</a>
+      <a class="home-button" href="https://scholar.google.com/citations?user=btFg5GIAAAAJ&amp;hl=en">Google Scholar</a>
+      <a class="home-button" href="https://orcid.org/0009-0000-9570-0998">ORCID</a>
+      <a class="home-button" href="/cv/">CV</a>
     </div>
   </section>
 

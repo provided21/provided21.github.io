@@ -1,98 +1,52 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<div class="cv-intro">
+  <p>An undergraduate researcher in the Big Data Communication Experimental Program at Nanjing University, working across model routing and computational communication.</p>
+  <p class="home-paper-links"><a href="mailto:huhr@smail.nju.edu.cn">Email</a><a href="https://scholar.google.com/citations?user=btFg5GIAAAAJ&amp;hl=en">Google Scholar</a><a href="https://orcid.org/0009-0000-9570-0998">ORCID</a></p>
+</div>
 
 Education
 ======
 * **B.A. in Big Data Communication**, Nanjing University, 2024–Present (Expected 2027)
-  * **GPA: 4.44 / 5.0** — Rank 2 in major
-  * Big Data Communication Experimental Class, School of Journalism and Communication
-  * **Relevant Coursework:** Machine Learning, Data Science & Analytics, Probability & Statistics, Data Structures & Algorithms, AI Programming, Database Systems, Discrete Mathematics, Introduction to AI
+  * Big Data Communication Experimental Program, School of Journalism and Communication
+  * **GPA: 4.44 / 5.0** · **Rank: 2 / 16**
 
 Research Experience
 ======
-* **RoutingToolBox — LLM Routing Benchmark** (2025–Present)
-  * Contributed to building a comprehensive LLM routing benchmark pipeline
-  * Processed three datasets: Mixinstruct, Routereval (public), and MMRbench (unreleased multimodal)
-  * Developed algorithm interfaces and general-purpose utility functions
-  * Independently built **RouteJudge**, a full-stack application for routing decision evaluation
-  * Second-author paper, **"ORBIT: An Optimal Routing and Budgeted Inference Toolbox"** — accepted at **Frontiers of Computer Science**
-  * Second-author paper, **"From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing"** — accepted at **EMNLP 2026**
-  * Second-author paper, **"RouteJudge: Preference-Based Evaluation of LLM Routers under Pluralistic User Preferences"** — accepted at **ICML Workshop**
+* **Model Routing and Evaluation**, 2025–Present
+  * Research on supervision, preference-based evaluation, and budget-aware inference for LLM routing.
+  * Contributed to ORBIT, DARS, and RouteJudge through benchmark construction, system development, and evaluation.
 
-* **LLM Population Simulation Project** (Spring 2026)
-  * Investigating alignment between LLM-simulated policy attitudes and real-world survey data
-  * Using Nemotron-Personas-France dataset (6M synthetic personas)
-  * Building retrieval-augmented LLM pipelines for demographic-conditioned response generation
-
-Competitions
-======
-* **Kaggle NCAA March Madness Prediction** — Top 40%+
-  * Predictive modeling, feature engineering, competition pipeline
-
-Projects
-======
-* **Digital Communication Knowledge Graph** (Coursework, 2026)
-  * Built an Obsidian-based course knowledge graph covering 14 areas of digital communication
-  * Created 41 SVG structure diagrams + 41 Mermaid relationship maps
-  * Human-AI collaborative notes with transparent attribution
-* **LLM-Assistant** — AI assistant application with MCP protocol integration (open source)
-* **Douban Movie Crawler** — Automated web scraping tool for movie information
-* **RouteJudge** — Full-stack web application for LLM routing evaluation
-
-Technical Skills
-======
-* **Programming Languages:** Python (primary), SQL, C++, JavaScript (frontend basics)
-* **Data Science:** pandas, NumPy, scikit-learn, statistical modeling, dataset processing
-* **AI/ML:** LLM inference, model routing, API integration, benchmark construction
-* **Tools:** Git/GitHub, VS Code, Jupyter, Obsidian, MCP toolchain
-* **Communication:** WeChat official account operation, video editing, data visualization
-
-Honors & Awards
-======
-* **Excellent Volunteer**, Nanyang Dream Plan (南星梦想计划)
-* **Excellent Member**, Xiao Lan Jing (小蓝鲸)
-* **University-Level Project Approval** (校级立项), Summer Teaching Volunteer Program
-
-Field & Leadership Experience
-======
-* **Financial Manager**, Summer Teaching Volunteer Program, Shangluo, Shaanxi
-  * Managed full-team budget, expense control, and financial reconciliation for a 12-person interdisciplinary team
-  * Achieved zero-error accounting under resource-constrained conditions
-  * Built effective communication with local communities in unfamiliar environments
-  * Project received university-level project approval (校级立项)
+* **Computational Communication**, 2026–Present
+  * LLM-based simulation of policy attitudes using large-scale synthetic personas.
+  * Study of behavioral adoption in intelligent payment infrastructure.
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% if post.status == "accepted" %}
-      {% include archive-single-cv.html %}
-    {% endif %}
+  <ul>{% assign accepted_publications = site.publications | where: "status", "accepted" | sort: "publication_order" %}{% for post in accepted_publications %}
+    {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
 Preprints
 ======
-  <ul>{% for post in site.publications %}
-    {% if post.status == "preprint" %}
-      {% include archive-single-cv.html %}
-    {% endif %}
-  {% endfor %}</ul>
-
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
-Teaching
-======
-  <ul>{% for post in site.teaching %}
+  <ul>{% assign preprints = site.publications | where: "status", "preprint" | sort: "publication_order" %}{% for post in preprints %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Selected Practice
+======
+* **NJU Xiao Lanjing** — Content planning, photography, filming, editing, and post-production; Outstanding Member, 2025–2026.
+* **Global Field Study · Singapore & Malaysia** — On-site visits, communication, and field research with the enterprise group.
+
+Technical Skills
+======
+* **Programming:** Python, SQL, C++, JavaScript
+* **Data & AI:** pandas, NumPy, scikit-learn, LLM inference, model routing, statistical modeling
+* **Media:** Content planning, photography, filming, video editing, data visualization

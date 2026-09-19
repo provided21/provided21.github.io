@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Haoran Hu · Data & Media"
 title_separator          : "-"
 name                     : "Haoran Hu"
-description              : "Personal website of Haoran Hu, an undergraduate at Nanjing University working with data, media, and intelligent systems."
+description              : "Personal website of Haoran Hu, an undergraduate at Nanjing University studying model routing and computational communication."
 url                      : https://provided21.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "provided21/provided21.github.io"
@@ -82,14 +82,14 @@ analytics:
 author:
   name             : "Haoran Hu"
   avatar           : "profile.png"
-  bio              : "Undergraduate in Big Data Communication at NJU · GPA 4.4/5.0 (rank 2) · Model reuse and recent work on model routing"
+  bio              : "Undergraduate in Big Data Communication at NJU · Model Routing and Computational Communication"
   location         : "Nanjing, China"
   employer         : "Nanjing University"
-  googlescholar    : "https://scholar.google.com/citations?user=yourid"
+  googlescholar    : "https://scholar.google.com/citations?user=btFg5GIAAAAJ&hl=en"
   email            : "huhr@smail.nju.edu.cn"
   uri              : "https://provided21.github.io"
   github           : "provided21"
-  orcid            : "https://orcid.org/your-orcid-id"
+  orcid            : "https://orcid.org/0009-0000-9570-0998"
 
 
 # Reading Files
