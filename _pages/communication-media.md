@@ -3,6 +3,7 @@ layout: single
 title: "Communication & Media"
 permalink: /communication-media/
 author_profile: false
+body_class: communication-media-page
 ---
 
 <div class="communication-page">
