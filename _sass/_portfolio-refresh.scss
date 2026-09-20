@@ -1019,6 +1019,16 @@ body {
   padding: 1.1rem 1.2rem;
 }
 
+.cv-page .archive {
+  float: none;
+  width: 100%;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .cv-intro > p:first-child {
   max-width: 720px;
   margin-top: 0;

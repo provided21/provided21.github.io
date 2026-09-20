@@ -3,6 +3,7 @@ layout: archive
 title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: false
+body_class: cv-page
 redirect_from:
   - /resume
 ---
@@ -14,13 +15,13 @@ redirect_from:
 
 Education
 ======
-* **B.A. in Big Data Communication**, Nanjing University, 2024–Present (Expected 2027)
+* **B.A. in Big Data Communication**, Nanjing University, 2024–Present (Expected 2028)
   * Big Data Communication Experimental Program, School of Journalism and Communication
   * **GPA: 4.44 / 5.0** · **Rank: 2 / 16**
 
 Research Experience
 ======
-* **Model Routing and Evaluation**, 2025–Present
+* **Model Routing and Evaluation**, 2026–Present
   * Research on supervision, preference-based evaluation, and budget-aware inference for LLM routing.
   * Contributed to ORBIT, DARS, and RouteJudge through benchmark construction, system development, and evaluation.
 
