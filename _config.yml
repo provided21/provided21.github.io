@@ -177,6 +177,8 @@ defaults:
       comments: true
       share: true
       related: true
+      sitemap: false
+      noindex: true
   # _pages
   - scope:
       path: ""
@@ -193,6 +195,8 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      sitemap: false
+      noindex: true
   # _publications
   - scope:
       path: ""
@@ -211,6 +215,8 @@ defaults:
       author_profile: true
       share: true
       comment: true
+      sitemap: false
+      noindex: true
   # _talks
   - scope:
       path: ""
@@ -219,6 +225,8 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+      sitemap: false
+      noindex: true
 
 # Sass/SCSS
 sass:

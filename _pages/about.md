@@ -38,7 +38,7 @@ redirect_from:
   <section class="home-section">
     <div class="home-section__header">
       <p class="home-kicker">Research Interests</p>
-      <h2>Two connected lines of inquiry</h2>
+      <h2>Research Interests</h2>
     </div>
     <div class="home-interest-grid home-interest-grid--two" aria-label="Research interests">
       <article>
